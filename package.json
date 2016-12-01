@@ -1,5 +1,5 @@
 {
-  "name": "ngTableExcelExport",
+  "name": "ng-table-excel-export",
   "version": "1.0.0",
   "description": "JavaScript export to Excel or CSV from HTML tables automatically in the browser and also compatible with all browsers",
   "license": "MIT",
