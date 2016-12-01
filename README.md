@@ -20,10 +20,10 @@ Firefox, Chrome, Internet Explorer 10+
 Install: Bower
 ==============
 
-    bower install ngTableExcelExport
+    bower install ng-table-excel-export
 
 
 Install: NPM
 ==============
 
-    npm install ngTableExcelExport
+    npm install ng-table-excel-export
