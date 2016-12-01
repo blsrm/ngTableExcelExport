@@ -1,0 +1,34 @@
+{
+  "name": "ngTableExcelExport",
+  "main": "ng-table-excel-export.js",
+  "homepage": "",
+  "authors": [
+    "Murugavel Ramachandran <blsrm@yahoo.com>"
+  ],
+  "description": "JavaScript export to Excel or CSV from HTML tables automatically in the browser and also compatible with all browsers",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "excel",
+    "export",
+    "csv",
+    "excel",
+    "Internet explorer",
+    "javascript",
+    "client",
+    "side"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/blsrm/ngTableExcelExport.git"
+  }
+}
