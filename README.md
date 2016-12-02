@@ -31,7 +31,7 @@ Install: NPM
 Include script in your HTML:
 
 ```HTML
-<script type="text/javascript" src="bower_components/ng-table-excel-export/ng-table-excel-export.js"></script>
+<script type="text/javascript" src="bower_components/ng-table-excel-export/ng-table-excel-export.min.js"></script>
 ```
 
 Usage
