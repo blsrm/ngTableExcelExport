@@ -50,7 +50,7 @@ Usage
     <a download="download.csv" href="#" onclick="return ngTableExcelExport.csv(this, 'datatable', 'Sheet Name Here');">Export to CSV</a>
     <a download="download.csv" href="#" onclick="return ngTableExcelExport.csv(this, 'datatable', 'Sheet Name Here', ';');">Export to CSV - Using semicolon ";" separator - UTF8</a>
 
-arguments
+Arguments
 =========
 * this - this is js instance as first arguments
 * datatable - name of ID value of table export as second arguments
