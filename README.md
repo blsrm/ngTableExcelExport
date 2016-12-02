@@ -27,3 +27,25 @@ Install: NPM
 ==============
 
     npm install ng-table-excel-export
+
+Include script in your HTML:
+
+```HTML
+<script type="text/javascript" src="bower_components/ng-table-excel-export/ng-table-excel-export.js"></script>
+```
+
+Usage
+=====
+
+    <table id="datatable">
+        <tr>
+            <td>100</td> <td>200</td> <td>300</td>
+        </tr>
+        <tr>
+            <td>400</td> <td>500</td> <td>600</td>
+        </tr>
+    </table>
+
+    <a download="download.xls" href="#" onclick="return ngTableExcelExport.excel(this, 'datatable', 'Sheet Name Here');">Export to Excel</a>
+    <a download="download.csv" href="#" onclick="return ngTableExcelExport.csv(this, 'datatable');">Export to CSV</a>
+    <a download="download.csv" href="#" onclick="return ngTableExcelExport.csv(this, 'datatable', ';');">Export to CSV - Using semicolon ";" separator - UTF8</a>

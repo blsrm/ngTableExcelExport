@@ -12,7 +12,7 @@
 (function (global) {
     'use strict';
 
-var ExcellentExport = (function() {
+var ngTableExcelExport = (function() {
 
     function b64toBlob(b64Data, contentType, sliceSize) {
         // function taken from http://stackoverflow.com/a/16245768/2591950
@@ -195,17 +195,17 @@ var ExcellentExport = (function() {
 
     // AMD support
     if (typeof define === 'function' && define.amd) {
-        define(function () { return ExcellentExport; });
+        define(function () { return ngTableExcelExport; });
     // CommonJS and Node.js module support.
     } else if (typeof exports !== 'undefined') {
         // Support Node.js specific `module.exports` (which can be a function)
         if (typeof module !== 'undefined' && module.exports) {
-            exports = module.exports = ExcellentExport;
+            exports = module.exports = ngTableExcelExport;
         }
         // But always support CommonJS module 1.1.1 spec (`exports` cannot be a function)
-        exports.ExcellentExport = ExcellentExport;
+        exports.ngTableExcelExport = ngTableExcelExport;
     } else {
-        global.ExcellentExport = ExcellentExport;
+        global.ngTableExcelExport = ngTableExcelExport;
     }
 })(this);
 
