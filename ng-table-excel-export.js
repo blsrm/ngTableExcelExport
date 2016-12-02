@@ -172,10 +172,10 @@ var ngTableExcelExport = (function() {
             
             var ctx = {worksheet: name || 'Worksheet', table: htmlTableData};
             var b64 = base64(format(template.excel, ctx));
-            return createDownloadLink(anchor, b64, 'application/vnd.ms-excel','export.xls');
+            return createDownloadLink(anchor, b64, 'application/vnd.ms-excel',name+'.xls');
         },
         /** @export */
-        csv: function(anchor, table, delimiter, newLine) {
+        csv: function(anchor, table, name, delimiter, newLine) {
             if (delimiter !== undefined && delimiter) {
                 csvDelimiter = delimiter;
             }
@@ -186,7 +186,7 @@ var ngTableExcelExport = (function() {
             table = get(table);
             var csvData = tableToCSV(table);
             var b64 = base64(csvData);
-            return createDownloadLink(anchor,b64,'application/csv','export.csv');
+            return createDownloadLink(anchor,b64,'application/csv',name+'.csv');
         }
     };
 
